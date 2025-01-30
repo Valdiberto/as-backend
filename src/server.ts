@@ -26,6 +26,9 @@ const runServer = (port: number, server: http.Server) => {
 
 }
 
+app.listen(process.env.PORT)
+
+/*
 const regularServer = http.createServer(app)
 if (process.env.NODE_ENV === 'production') {
     // TODO: configurar SSL
@@ -41,4 +44,4 @@ if (process.env.NODE_ENV === 'production') {
 } else {
     const serverPort: number = process.env.PORT ? parseInt(process.env.PORT) : 9000
     runServer(serverPort, regularServer)
-}
+}*/
