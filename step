@@ -1,0 +1,17 @@
+npm init
+
+npm install -D typescript ts-node nodemon
+
+npm i express dotenv cors
+
+npm i -D @types/cors @types/express @types/node
+
+npx tsc --init
+
+
+
+npm i -D prisma
+
+npx prisma init
+
+npm i zod
